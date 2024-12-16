@@ -1,0 +1,93 @@
+.colorB {
+  color: rgb(50, 50, 213);
+}
+.colorY {
+  color: rgb(216, 194, 26);
+  margin-left: 10px;
+}
+
+.colorR {
+  color: rgb(215, 21, 21);
+  margin-left: 10px;
+}
+.colorG {
+  color: rgb(14, 122, 19);
+  margin-left: 10px;
+}
+
+.Csize {
+  font-size: 60px;
+  color: rgb(206, 223, 223);
+}
+.headingSize {
+  font-size: 50px;
+}
+.margin-right {
+  margin-right: 76px;
+  margin-left: 76px;
+}
+
+.daysSize {
+  font-size: 18px;
+}
+.marginLeft {
+  margin-left: 10px;
+}
+
+/* Circle Graph */
+.circle-graph {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+  max-height: 250px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 3.8;
+  stroke: #4caf50; /* Adjust color as needed */
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: center;
+  transition: stroke-dasharray 0.5s ease-out;
+}
+
+.percentage {
+  font-size: 0.5em;
+  text-anchor: middle;
+  fill: #4caf50;
+}
+
+.notification-card {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.notification-card:hover {
+  transform: scale(1.02);
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+img.rounded-circle {
+  border: 2px solid #ccc;
+}
+
+.button {
+  width: 150px;
+}
